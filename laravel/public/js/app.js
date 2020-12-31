@@ -2141,11 +2141,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: {
-    teskId: String
+    taskId: Number
   },
   data: function data() {
     return {
-      task: {}
+      task: []
     };
   },
   methods: {

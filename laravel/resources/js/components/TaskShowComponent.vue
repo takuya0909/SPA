@@ -27,11 +27,11 @@
 <script>
   export default {
     props: {
-      teskId: String
+      taskId: String
     },
     data: function(){
       return {
-        task: {}
+        task: []
       }
     },
     methods: {
